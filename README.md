@@ -12,3 +12,6 @@ Add:<br>
 **intl.error_level = E_WARNING**<br>
 
 to **c:\xampp\php\php.ini**<br>
+**restart XAMPP to update changes**
+~~extension= php_sodium.dll~~ not working <br>
+~~extension= sodium~~ not working <br>
