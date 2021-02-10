@@ -13,8 +13,8 @@ Add:<br>
 
 to **c:\xampp\php\php.ini**<br>
 **restart XAMPP to update changes**<br>
-~~extension= php_sodium.dll~~ not working <br>
-~~extension= sodium~~ not working <br>
+~~extension= php_sodium.dll~~ not working ❌<br> 
+~~extension= sodium~~ not working ❌<br>
 
-**follow guidance from this link to make sodium works:**<br>
+**follow guidance from this link to make sodium works: ✅**<br> 
 **https://py-ipv8.readthedocs.io/en/latest/preliminaries/install_libsodium/** <br>
