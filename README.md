@@ -18,3 +18,7 @@ to **c:\xampp\php\php.ini**<br>
 
 **follow guidance from this link to make sodium works: ✅**<br> 
 **https://py-ipv8.readthedocs.io/en/latest/preliminaries/install_libsodium/** <br>
+
+**hosting with ngrok:** <br>
+change **wwwroot** to **ngrok address** <br>
+**localhost/moodle** to **http://a25d016e59a2.ngrok.io/moodle** <br>
