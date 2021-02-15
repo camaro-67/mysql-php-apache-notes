@@ -21,4 +21,4 @@ to **c:\xampp\php\php.ini**<br>
 
 **hosting with ngrok:** <br>
 change **wwwroot** to **ngrok address** <br>
-**localhost/moodle** to **http://a25d016e59a2.ngrok.io/moodle** <br>
+**localhost/moodle** to **http://(ngrok address)/moodle** <br>
