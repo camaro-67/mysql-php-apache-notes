@@ -22,3 +22,7 @@ to **c:\xampp\php\php.ini**<br>
 **hosting with ngrok:** <br>
 change **wwwroot** to **ngrok address** <br>
 **localhost/moodle** to **http://(ngrok address)/moodle** <br>
+
+**Installation notes** <br>
+Create user passwowrd and optional database in phpmyadmin first <br>
+Use MySQL PID 3306  as Database Port <br>
