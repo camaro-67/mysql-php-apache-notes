@@ -26,3 +26,4 @@ change **wwwroot** to **ngrok address** <br>
 **Installation notes** <br>
 Create user passwoword and optional database in phpmyadmin first <br>
 Use MySQL PID 3306  as Database Port <br>
+Have your database connected in php application <br>
