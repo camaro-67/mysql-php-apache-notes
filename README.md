@@ -18,7 +18,8 @@ to **c:\xampp\php\php.ini**<br>
 
 **follow guidance from this link to make sodium works: ✅**<br> 
 **https://py-ipv8.readthedocs.io/en/latest/preliminaries/install_libsodium/** <br>
-
+add **extension= php_sodium.dll ✅** <br>
+add **extension= sodium.dll ✅** <br>
 **hosting with ngrok:** <br>
 change **wwwroot** to **ngrok address** <br>
 **localhost/moodle** to **http://(ngrok address)/moodle** <br>
@@ -27,3 +28,10 @@ change **wwwroot** to **ngrok address** <br>
 Create user passwoword and optional database in phpmyadmin first <br>
 Use MySQL PID 3306  as Database Port <br>
 Have your database connected in php application <br>
+
+**moodle login refused to connect** <br>
+Change to **Listen 8083** and **ServerName localhost:8083** <br>
+Change to **Listen 444** and **ServerName localhost** <br>
+Access https://docs.moodle.org/310/en/Errors_FAQ#Are_you_using_XAMPP.3F to see XAMPP solution <br>
+open **config.php** and change to **$CFG->wwwroot   = 'http://localhost:8083/moodle';** <br>
+access moodle through **localhost:8083/moodle** <br>
