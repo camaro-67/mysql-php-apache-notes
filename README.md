@@ -34,4 +34,18 @@ Change to **Listen 8083** and **ServerName localhost:8083** <br>
 Change to **Listen 444** and **ServerName localhost** <br>
 Access https://docs.moodle.org/310/en/Errors_FAQ#Are_you_using_XAMPP.3F to see XAMPP solution <br>
 open **config.php** and change to **$CFG->wwwroot   = 'http://localhost:8083/moodle';** <br>
-access moodle through **localhost:8083/moodle** <br>
+access moodle through **localhost:8083/moodle** <br><br>
+
+**Connect moodle app to moodle desktop** <br>
+Dashboard/ <br>
+Site administration/ <br>
+Plugins/ <br>
+Web services/ <br>
+External services/ <br>
+Settings/<br>
+External service/<br>
+**Click the tick to enable External Web Services** <br><br>
+
+**Access Mobile settings in Site administration and enable web services for mobile devices** <br>
+**Moodle Desktop account is the same to Moodle app account** <br>
+
