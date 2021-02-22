@@ -47,5 +47,8 @@ External service/<br>
 **Click the tick to enable External Web Services** <br><br>
 
 **Access Mobile settings in Site administration and enable web services for mobile devices** <br>
-**Moodle Desktop account is the same to Moodle app account** <br>
+**Moodle Desktop account is the same to Moodle app account** <br><br>
+
+**Forgot moodle password ?** <br>
+Access **moodle/admin/cli/reset_password.php**, run the command and execute the given requests shown in the console <br>
 
